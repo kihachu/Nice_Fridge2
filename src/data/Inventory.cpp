@@ -9,15 +9,20 @@ void Inventory::addProduct(const Product &product) {
 }
 
 void Inventory::removeProduct(const std::string &name) {
-    products.erase(name);
+    if (products.find(name) != products.end())
+    {
+        products.erase(name);
+        return;
+    }
+    throw std::runtime_error("Product not found: " + name);
 }
 
-Product* Inventory::getProduct(const std::string &name) {
+Product& Inventory::getProduct(const std::string &name) {
     auto it = products.find(name);
     if (it != products.end()){
-        return &(it->second);
+        return it->second;
     }
-    return nullptr;
+    throw std::runtime_error("Product not found: " + name);
 }
 
 void Inventory::displayContents() {

@@ -83,11 +83,12 @@ void ConsoleUI::displayProductsAndRemove(Inventory &inventory) {
     std::cout << "Type a name of the product for removing: ";
     std::getline(std::cin, name);
 
-    if (inventory.getProduct(name) != nullptr) {
+    try
+    {
         inventory.removeProduct(name);
-        std::cout << "Product '" << name << "' removed." << std::endl;
-    } else{
-        std::cout << "Product not found." << std::endl;
+        std::cout << "Product '" << name << "' removed" << '\n';
+    } catch (const std::runtime_error &e){
+        std::cout << "Product not found. " + name << '\n';
     }
 }
 void ConsoleUI::saveInventory(Inventory &inventory, FileManager &fileManager) {

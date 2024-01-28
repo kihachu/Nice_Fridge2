@@ -13,7 +13,7 @@ class Inventory {
 public:
     void addProduct(const Product& product);
     void removeProduct(const std::string& name);
-    Product* getProduct(const std::string& name);
+    Product& getProduct(const std::string& name);
     void displayContents();
     std::vector<Product> getAllProducts() const;
     void fridgeClear();
