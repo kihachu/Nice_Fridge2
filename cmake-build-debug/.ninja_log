@@ -1,0 +1,17 @@
+# ninja log v5
+18	991	7281596826627656	CMakeFiles/Nice_Fridge.dir/src/main.cpp.obj	ff1242840c748229
+13	1002	7281596826737614	CMakeFiles/Nice_Fridge.dir/src/ui/ConsoleUI.cpp.obj	90ec87c2e7da35bb
+5	1131	7281596828026741	CMakeFiles/Nice_Fridge.dir/src/data/Inventory.cpp.obj	c09f0daa9c46fc2d
+0	2629	7281596842936237	CMakeFiles/Nice_Fridge.dir/src/data/Product.cpp.obj	8dcc07b7a61dc51b
+9	4014	7281596856783454	CMakeFiles/Nice_Fridge.dir/src/file_io/FileManager.cpp.obj	8bb662f306f3c726
+4015	6329	7281596879955984	Nice_Fridge.exe	32bad3e6d410041f
+1	1135	7281597063993229	CMakeFiles/InventoryTest.dir/src/ui/ConsoleUI.cpp.obj	75a55a3d1b19ac5b
+18	1242	7281597065063823	CMakeFiles/InventoryTest.dir/src/data/Inventory.cpp.obj	581e3877e7c55a9d
+22	1577	7281597068419204	external/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	fcff6deb4ed032ec
+6	2097	7281597073598041	CMakeFiles/InventoryTest.dir/tests/inventory_tests.cpp.obj	66ddee0672614316
+14	2849	7281597081070190	CMakeFiles/InventoryTest.dir/src/data/Product.cpp.obj	58dc25178e9759d8
+10	4309	7281597095637871	CMakeFiles/InventoryTest.dir/src/file_io/FileManager.cpp.obj	2ff70d90f51627cd
+26	7302	7281597125519514	external/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	149f29f479445e8
+7303	9964	7281597152291354	lib/libgtest.a	ef83014efee9d3ee
+9964	10017	7281597152828679	lib/libgtest_main.a	180f3a84c1eb7d0d
+10017	15227	7281597204833656	InventoryTest.exe	3db12ebae40fa5a2
